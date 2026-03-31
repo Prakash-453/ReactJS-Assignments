@@ -1,0 +1,102 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* To-Do Container */
+  .todo-container {
+    width: 100%;
+    max-width: 500px;
+    margin: 10px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Title */
+  .todo-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Form Styles */
+  .todo-form {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .todo-input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .todo-submit {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .todo-submit:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Task List */
+  .todo-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+  }
+  
+  .todo-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f8f8;
+    margin-bottom: 10px;
+    padding: 10px 15px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+  }
+  
+  /* Action Buttons */
+  .todo-actions button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .todo-edit {
+    background-color: #ffc107;
+    color: #fff;
+  }
+  
+  .todo-edit:hover {
+    background-color: #e0a800;
+  }
+  
+  .todo-delete {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  
+  .todo-delete:hover {
+    background-color: #c82333;
+  }
+  

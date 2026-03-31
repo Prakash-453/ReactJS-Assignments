@@ -1,0 +1,15 @@
+#gallery{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 6px;
+}
+#gallery img{
+    border: 1px solid black;
+    height: 190px;
+    width: 350px;
+    padding: 14px;
+    background-color: chartreuse;
+}

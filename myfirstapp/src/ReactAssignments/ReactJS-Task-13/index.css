@@ -1,0 +1,40 @@
+.counter-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .button-container {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .button-container .btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    width: 150px; 
+    text-align: center;
+  }
+  
+  .button-container .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .button-container .btn:focus {
+    outline: none;
+  }
+  
+  .button-container .btn:active {
+    transform: scale(0.95);
+  }
+  

@@ -1,0 +1,17 @@
+.main{
+    border: 1px solid black;
+    width: 700px;
+    height:700px;
+    margin-left: 320px;
+    padding: 30px;
+}
+
+.images1{
+    display: flex;
+    gap: 20px;
+}
+.images2{
+    display: flex;
+    gap: 20px;
+    margin-top: 15px;
+}

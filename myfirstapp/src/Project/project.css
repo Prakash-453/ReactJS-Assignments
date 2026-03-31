@@ -1,0 +1,11 @@
+.hii{
+    padding: 20px;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 24px;
+    width: 50%;
+}
+

@@ -1,0 +1,26 @@
+.mainbox{
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+    width: 74vw;
+    height: 60vh;
+    padding: 40px;
+    margin-top: 7px;
+  }
+  .available{
+    background-color: green;
+    display: flex;
+    flex-direction: column;
+    padding: 45px;
+    font-size: 20px;
+  }
+
+  .unavailable{
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    padding: 45px;
+    font-size: 20px;
+  }
+
+  
